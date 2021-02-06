@@ -34,7 +34,6 @@ class NewStudentForm extends React.Component {
         <div>
         <form id="newForm" onSubmit={this.handleSubmit}>
           <label for='firstName'>
-          Add New Student
             <input 
             name="firstName"
             type="text" 
